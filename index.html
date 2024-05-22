@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" class="vk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+       HDC-Mono11 - Build with MONO
+    </title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body x-data="
+          {
+            scrolledFromTop: false
+          }
+        " x-init="window.pageYOffset >= 50 ? scrolledFromTop = true : scrolledFromTop = false"
+    @scroll.window="window.pageYOffset >= 50 ? scrolledFromTop = true : scrolledFromTop = false" class="kf fl" style=""
+    data-new-gr-c-s-check-loaded="14.1173.0" data-gr-ext-installed="">
+
+    <header x-data="
+            {
+              navbarOpen: false,
+              dropdownOpen: false
+            }
+          " :class="scrolledFromTop ? 'kf gl zf rl ij oj ' : ' lf hl' " class="f ba qb jc be c lf hl">
+        <div class="a">
+            <div class="e ha qb be ee">
+                <div class="qb jc be ce ng">
+                    <div>
+                        <button @click="navbarOpen = !navbarOpen" :class="navbarOpen &amp;&amp; 'navbarTogglerActive' "
+                            id="navbarToggler" class="d g h/2 ob qd/2 me pg qg mj qk to">
+                            <span :class="navbarOpen &amp;&amp; 'sd i' " class="e ia ob tb lc mf il"></span>
+                            <span :class="navbarOpen &amp;&amp; 'fj' " class="e ia ob tb lc mf il"></span>
+                            <span :class="navbarOpen &amp;&amp; 'j td' " class="e ia ob tb lc mf il"></span>
+                        </button>
+                        <nav :class="!navbarOpen &amp;&amp; 'sb' " id="navbarCollapse"
+                            class="d g k jc _c me kf rg sg jj fl fo qo uo cp dp hp xp bq sb">
+                            <ul class="vq ro">
+                                <li class="xi ul">
+                                    <a href="#home"
+                                        class="scroll-menu qb tg gi oi kk em ko so ip cq 2xl:ud-ml-12 vl bj">
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+
+                                </li>
+                                <li>
+                                    <a href="#roadmap"
+                                        class="scroll-menu qb tg gi oi xi kk ul em ko so ip cq 2xl:ud-ml-12">Services
+                                    </a>
+                                </li>
+                                <li class="sk submenu-item e">
+
+                                    <div :class="dropdownOpen ? 'ob' : 'sb qo ' "
+                                        class="submenu e k l me kf pj sj uk fl eo go ho vo ep wp yp _p aq sb qo">
+                                        <a href="blog-grid.html" class="ob ne ug hi yi kk vl fm jp">
+                                            Blog Grid Page
+                                        </a>
+                                        <a href="blog-details.html" class="ob ne ug hi yi kk vl fm jp">
+                                            Blog Details Page
+                                        </a>
+                                        <a href="token-sale.html" class="ob ne ug hi yi kk vl fm jp">
+                                            Token Sale Page
+                                        </a>
+                                        <a href="support.html" class="ob ne ug hi yi kk vl fm jp">
+                                            Support Page
+                                        </a>
+                                        <a href="signin.html" class="ob ne ug hi yi kk vl fm jp">
+                                            Signin Page
+                                        </a>
+                                        <a href="signup.html" class="ob ne ug hi yi kk vl fm jp">
+                                            Signup Page
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#contact"
+                                        class="scroll-menu qb tg gi oi xi kk ul em ko so ip cq 2xl:ud-ml-12">
+                                        Support
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="home" class="e ca wh xh">
+        <div class="a">
+            <div class="ha qb _d">
+                <div class="jc ng">
+                    <div class="la fd fi">
+                        <h1 class="pa li pi ui yi vl bo">
+                            HOI DEM CUA (HDC-MONO 11)
+                        </h1>
+                        <p class="la pa gd gi qi xi vl">
+                            Free guide with HOI DEM CUA. Join with us to run node & validator together
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d f l ea yb jc gj" style="
+              background-image: linear-gradient(
+                180deg,
+                #3e7dff 0%,
+                rgba(62, 125, 255, 0) 100%
+              );
+            "></div>
+        <img src="https://crypto-tailwind.preview.uideck.com/src/images/shapes/hero-shape-1.svg" alt=""
+            class="d l f ea">
+        <img src="https://crypto-tailwind.preview.uideck.com/src/images/shapes/hero-shape-2.svg" alt=""
+            class="d m f ea">
+    </section>
+    <section class="e ca xh">   
+        <div class="row a" style="color: white;text-align: center; margin: 0 auto;">
+            <div class="col-md-2"></div>
+            <app-chain-grid _ngcontent-toq-c34="" _nghost-toq-c26="" class="ng-star-inserted">
+                <div _ngcontent-toq-c26="" class="chain-grid ng-star-inserted">
+                    <p _ngcontent-toq-c26="" class="title"> Testnet </p>
+                    <div _ngcontent-toq-c26="" class="row ng-star-inserted">
+                        <div _ngcontent-toq-c26="" class="col col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 text-decoration-none ng-star-inserted" tabindex="0">
+                            <app-chain-card _ngcontent-toq-c26="" _nghost-toq-c25="">
+                                <div _ngcontent-toq-c25="" class="nj-chain-card ng-star-inserted"><img _ngcontent-toq-c25="" alt="0g-testnet" src="https://raw.githubusercontent.com/nodejumper-org/jumper-assets/master/images/chains/0g.webp">
+                                    <div _ngcontent-toq-c25="" class="info">
+                                        <div _ngcontent-toq-c25="" class="title">0G</div>
+                                        <div _ngcontent-toq-c25="" class="subtitle-container">
+                                            <p _ngcontent-toq-c25="" class="subtitle">
+                                                zgtendermint_16600-1</p>
+                                        </div>
+                                        <div _ngcontent-toq-c25="" class="fast-links">
+                                            <!----><a _ngcontent-toq-c25="" class="link ng-star-inserted" href="/0g-testnet/installation"> install </a>
+                                            <!----><a _ngcontent-toq-c25="" class="link ng-star-inserted" href="/0g-testnet/sync">
+                                                sync </a>
+                                            <!----><a _ngcontent-toq-c25="" class="link ng-star-inserted" href="/0g-testnet/cheat-sheet"> cheat </a>
+                                            <!---->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!---->
+                            </app-chain-card>
+                        </div>
+                        <div _ngcontent-toq-c26="" class="col col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 text-decoration-none ng-star-inserted" tabindex="0">
+                            <app-chain-card _ngcontent-toq-c26="" _nghost-toq-c25="">
+                                <div _ngcontent-toq-c25="" class="nj-chain-card ng-star-inserted"><img _ngcontent-toq-c25="" alt="airchains-testnet" src="https://raw.githubusercontent.com/nodejumper-org/jumper-assets/master/images/chains/airchains.webp">
+                                    <div _ngcontent-toq-c25="" class="info">
+                                        <div _ngcontent-toq-c25="" class="title">Airchains</div>
+                                        <div _ngcontent-toq-c25="" class="subtitle-container">
+                                            <p _ngcontent-toq-c25="" class="subtitle">junction</p>
+                                        </div>
+                                        <div _ngcontent-toq-c25="" class="fast-links">
+                                            <!----><a _ngcontent-toq-c25="" class="link ng-star-inserted" href="/airchains-testnet/installation"> install </a>
+                                            <!----><a _ngcontent-toq-c25="" class="link ng-star-inserted" href="/airchains-testnet/sync"> sync </a>
+                                            <!----><a _ngcontent-toq-c25="" class="link ng-star-inserted" href="/airchains-testnet/cheat-sheet"> cheat </a>
+                                            <!---->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!---->
+                            </app-chain-card>
+                        </div>
+                    
+                        <div _ngcontent-toq-c26="" class="col col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 text-decoration-none ng-star-inserted" tabindex="0">
+                            <app-chain-card _ngcontent-toq-c26="" _nghost-toq-c25="">
+                                <div _ngcontent-toq-c25="" class="nj-chain-card ng-star-inserted"><img _ngcontent-toq-c25="" alt="okp4-testnet" src="https://raw.githubusercontent.com/nodejumper-org/jumper-assets/master/images/chains/okp4.webp">
+                                    <div _ngcontent-toq-c25="" class="info">
+                                        <div _ngcontent-toq-c25="" class="title">Axone Protocol</div>
+                                        <div _ngcontent-toq-c25="" class="subtitle-container">
+                                            <p _ngcontent-toq-c25="" class="subtitle">okp4-drunemeton-1
+                                            </p>
+                                        </div>
+                                        <div _ngcontent-toq-c25="" class="fast-links">
+                                            <!----><a _ngcontent-toq-c25="" class="link ng-star-inserted" href="/okp4-testnet/installation"> install </a>
+                                            <!----><a _ngcontent-toq-c25="" class="link ng-star-inserted" href="/okp4-testnet/sync">
+                                                sync </a>
+                                            <!----><a _ngcontent-toq-c25="" class="link ng-star-inserted" href="/okp4-testnet/cheat-sheet"> cheat </a>
+                                            <!---->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!---->
+                            </app-chain-card>
+                        </div>
+                        <div _ngcontent-toq-c26="" class="col col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 text-decoration-none ng-star-inserted" tabindex="0">
+                            <app-chain-card _ngcontent-toq-c26="" _nghost-toq-c25="">
+                                <div _ngcontent-toq-c25="" class="nj-chain-card ng-star-inserted"><img _ngcontent-toq-c25="" alt="pryzm-testnet" src="https://raw.githubusercontent.com/nodejumper-org/jumper-assets/master/images/chains/pryzm.webp">
+                                    <div _ngcontent-toq-c25="" class="info">
+                                        <div _ngcontent-toq-c25="" class="title">Pryzm Testnet</div>
+                                        <div _ngcontent-toq-c25="" class="subtitle-container">
+                                            <p _ngcontent-toq-c25="" class="subtitle">indigo-1</p>
+                                        </div>
+                                        <div _ngcontent-toq-c25="" class="fast-links">
+                                            <!----><a _ngcontent-toq-c25="" class="link ng-star-inserted" href="/pryzm-testnet/installation"> install </a>
+                                            <!----><a _ngcontent-toq-c25="" class="link ng-star-inserted" href="/pryzm-testnet/sync"> sync </a>
+                                            <!----><a _ngcontent-toq-c25="" class="link ng-star-inserted" href="/pryzm-testnet/cheat-sheet"> cheat </a>
+                                            <!---->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!---->
+                            </app-chain-card>
+                        </div>
+                        <div _ngcontent-toq-c26="" class="col col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 text-decoration-none ng-star-inserted" tabindex="0">
+                            <app-chain-card _ngcontent-toq-c26="" _nghost-toq-c25="">
+                                <div _ngcontent-toq-c25="" class="nj-chain-card ng-star-inserted"><img _ngcontent-toq-c25="" alt="soarchain-testnet" src="https://raw.githubusercontent.com/nodejumper-org/jumper-assets/master/images/chains/soarchain.webp">
+                                    <div _ngcontent-toq-c25="" class="info">
+                                        <div _ngcontent-toq-c25="" class="title">Soarchain</div>
+                                        <div _ngcontent-toq-c25="" class="subtitle-container">
+                                            <p _ngcontent-toq-c25="" class="subtitle">soarchaintestnet
+                                            </p>
+                                        </div>
+                                        <div _ngcontent-toq-c25="" class="fast-links">
+                                            <!----><a _ngcontent-toq-c25="" class="link ng-star-inserted" href="/soarchain-testnet/installation"> install </a>
+                                            <!----><a _ngcontent-toq-c25="" class="link ng-star-inserted" href="/soarchain-testnet/sync"> sync </a>
+                                            <!----><a _ngcontent-toq-c25="" class="link ng-star-inserted" href="/soarchain-testnet/cheat-sheet"> cheat </a>
+                                            <!---->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!---->
+                            </app-chain-card>
+                        </div>
+                        <div _ngcontent-toq-c26="" class="col col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 text-decoration-none ng-star-inserted" tabindex="0">
+                            <app-chain-card _ngcontent-toq-c26="" _nghost-toq-c25="">
+                                <div _ngcontent-toq-c25="" class="nj-chain-card ng-star-inserted"><img _ngcontent-toq-c25="" alt="union-testnet" src="https://raw.githubusercontent.com/nodejumper-org/jumper-assets/master/images/chains/union.svg">
+                                    <div _ngcontent-toq-c25="" class="info">
+                                        <div _ngcontent-toq-c25="" class="title">Union</div>
+                                        <div _ngcontent-toq-c25="" class="subtitle-container">
+                                            <p _ngcontent-toq-c25="" class="subtitle">union-testnet-8
+                                            </p>
+                                        </div>
+                                        <div _ngcontent-toq-c25="" class="fast-links">
+                                            <!----><a _ngcontent-toq-c25="" class="link ng-star-inserted" href="/union-testnet/installation"> install </a>
+                                            <!----><a _ngcontent-toq-c25="" class="link ng-star-inserted" href="/union-testnet/sync"> sync </a>
+                                            <!----><a _ngcontent-toq-c25="" class="link ng-star-inserted" href="/union-testnet/cheat-sheet"> cheat </a>
+                                            <!---->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!---->
+                            </app-chain-card>
+                        </div>
+                        <div _ngcontent-toq-c26="" class="col col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 text-decoration-none ng-star-inserted" tabindex="0">
+                            <app-chain-card _ngcontent-toq-c26="" _nghost-toq-c25="">
+                                <div _ngcontent-toq-c25="" class="nj-chain-card ng-star-inserted"><img _ngcontent-toq-c25="" alt="wardenprotocol-testnet" src="https://raw.githubusercontent.com/nodejumper-org/jumper-assets/master/images/chains/warden.webp">
+                                    <div _ngcontent-toq-c25="" class="info">
+                                        <div _ngcontent-toq-c25="" class="title">Warden Protocol</div>
+                                        <div _ngcontent-toq-c25="" class="subtitle-container">
+                                            <p _ngcontent-toq-c25="" class="subtitle">buenavista-1</p>
+                                        </div>
+                                        <div _ngcontent-toq-c25="" class="fast-links">
+                                            <!----><a _ngcontent-toq-c25="" class="link ng-star-inserted" href="/wardenprotocol-testnet/installation"> install
+                                            </a>
+                                            <!----><a _ngcontent-toq-c25="" class="link ng-star-inserted" href="/wardenprotocol-testnet/sync"> sync </a>
+                                            <!----><a _ngcontent-toq-c25="" class="link ng-star-inserted" href="/wardenprotocol-testnet/cheat-sheet"> cheat </a>
+                                            <!---->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!---->
+                            </app-chain-card>
+                        </div>
+                        <div _ngcontent-toq-c26="" class="col col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 text-decoration-none ng-star-inserted" tabindex="0">
+                            <app-chain-card _ngcontent-toq-c26="" _nghost-toq-c25="">
+                                <div _ngcontent-toq-c25="" class="nj-chain-card ng-star-inserted"><img _ngcontent-toq-c25="" alt="zetachain-testnet" src="https://raw.githubusercontent.com/nodejumper-org/jumper-assets/master/images/chains/zetachain.webp">
+                                    <div _ngcontent-toq-c25="" class="info">
+                                        <div _ngcontent-toq-c25="" class="title">ZetaChain</div>
+                                        <div _ngcontent-toq-c25="" class="subtitle-container">
+                                            <p _ngcontent-toq-c25="" class="subtitle">athens_7001-1</p>
+                                        </div>
+                                        <div _ngcontent-toq-c25="" class="fast-links">
+                                            <!----><a _ngcontent-toq-c25="" class="link ng-star-inserted" href="/zetachain-testnet/installation"> install </a>
+                                            <!----><a _ngcontent-toq-c25="" class="link ng-star-inserted" href="/zetachain-testnet/sync"> sync </a>
+                                            <!----><a _ngcontent-toq-c25="" class="link ng-star-inserted" href="/zetachain-testnet/cheat-sheet"> cheat </a>
+                                            <!---->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!---->
+                            </app-chain-card>
+                        </div>
+                        <!---->
+                    </div>
+                    <!---->
+                </div>
+                <!---->
+            </app-chain-grid>
+        </div>
+    </section>
+
+    <footer class="e ca th">
+        <div class="a">
+
+            <div class="wow fadeInUp we bf dh fi al" data-wow-delay="0s"
+                style="visibility: visible; animation-delay: 0s;">
+                <p class="ii qi wi xi ul">
+                    © Crypto - all Rights Reserved, Crafted by
+                    <a href="#uideck.com" rel="noopenner nofollow" target="_blank" class="kk">
+                        UIdeck
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="d f l ea">
+            <img src="https://crypto-tailwind.preview.uideck.com/src/images/shapes/footer-shape-2.svg" alt="shape">
+        </div>
+        <div class="d n m ea">
+            <img src="https://crypto-tailwind.preview.uideck.com/src/images/shapes/footer-shape-1.svg" alt="shape">
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <svg id="SvgjsSvg1065" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1"
+        xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev"
+        style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;">
+        <defs id="SvgjsDefs1066"></defs>
+        <polyline id="SvgjsPolyline1067" points="0,0"></polyline>
+        <path id="SvgjsPath1068" d="M0 0 "></path>
+    </svg>
+</body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+
+</html>
